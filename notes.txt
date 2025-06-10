@@ -3,6 +3,28 @@ stash, cherry-pick, revert and gitkraken
 # command to create empty repo
 git init empty-repo-name
 
+---------------------------------------------
+#stash concept , temp area in branch where we can store file content
 
+#save working area to stash
+git stash save "first stash"
 
+#list files in stash area
+git stash list
 
+#show changes in file f1 after last commit and that is currently stored in stash area
+git stash show stash@{0} 
+ f1 | 1 +
+ 1 file changed, 1 insertion(+)
+
+NOTE: stash use is when you are working on some file and at same time you want to commit all file in working area then we can temporary store working added content of file into stash area then we will do commit and again start work on same file by restoring content of file from stash area
+
+#command to get data back in working area from stash area
+git stash apply stash-name
+e.g : git stash apply stash@{0} 
+
+#command to delete stash and get data in working area
+git stash pop stash-name
+e.g. : git stash pop stash@{1} 
+
+---------------------------------------------

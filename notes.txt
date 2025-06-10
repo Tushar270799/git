@@ -30,3 +30,5 @@ e.g. : git stash pop stash@{1}
 # command to clear entire stash
 git stash clear 
 ---------------------------------------------
+
+19:07 lect -13

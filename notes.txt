@@ -27,4 +27,6 @@ e.g : git stash apply stash@{0}
 git stash pop stash-name
 e.g. : git stash pop stash@{1} 
 
+# command to clear entire stash
+git stash clear 
 ---------------------------------------------

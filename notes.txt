@@ -1,5 +1,8 @@
 stash, cherry-pick, revert and gitkraken
 ---------------------------------------------
+# command to create empty repo
+git init empty-repo-name
+
 
 
 
